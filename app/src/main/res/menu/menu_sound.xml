@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Setting"
+    android:id="@+id/menuSetting">/</item>
+    <item android:title="Share"
+    android:id="@+id/menuShare"></item>
+    <item android:title="Search"
+    android:id="@+id/menuSearch"
+    android:icon="@drawable/search"
+    app:showAsAction="always"></item>
+    <item android:title="HOME"
+    android:id="@+id/menuHome"
+    android:icon="@drawable/home"
+    app:showAsAction="always"></item>
+
+</menu>
